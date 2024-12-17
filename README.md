@@ -89,3 +89,26 @@ Singkatnya, ini adalah contoh implementasi stream sederhana di Flutter:
 ![Soal 8](<assets/Screenshot (523).png>)
 ![Soal 8](<assets/Screenshot (524).png>)
 ![Soal 8](<assets/Screenshot (525).png>)
+
+# Soal 9
+
+1. initState():
+    - Inisialisasi stream custom
+    - Mendapatkan controller stream
+    - Membuat listener yang akan bereaksi setiap ada data baru
+    - Update state/UI dengan data terbaru
+
+2. dispose():
+    - Membersihkan resource stream
+    - Mencegah memory leak
+    - Menghentikan listener yang tidak perlu
+
+3. addRandomNumber():
+    - Buat angka random
+    - Periksa status stream
+    - Tambahkan angka ke stream jika masih aktif
+    - Berikan nilai default jika stream tertutup
+
+![Soal 9](<assets/Screenshot (526).png>)
+![Soal 9](<assets/Screenshot (527).png>)
+![Soal 9](<assets/Screenshot (528).png>)

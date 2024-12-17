@@ -112,3 +112,24 @@ Singkatnya, ini adalah contoh implementasi stream sederhana di Flutter:
 ![Soal 9](<assets/Screenshot (526).png>)
 ![Soal 9](<assets/Screenshot (527).png>)
 ![Soal 9](<assets/Screenshot (528).png>)
+
+# Soal 10
+
+Konsep Dasar Stream:
+    - Secara default, sebuah stream hanya bisa di-listen sekali
+    - Mencoba listen kedua kali akan menghasilkan error
+    - Stream sudah memiliki listener pertama
+    - Percobaan listener kedua ditolak
+
+# Soal 11
+
+1. Broadcast Stream:
+    - .asBroadcastStream() memungkinkan multiple listener
+    - Setiap listener akan menerima data yang sama
+2. Karena memiliki dua listener
+3. Mekanisme Kerja:
+    - Saat tombol ditekan, angka random dikirim ke stream
+    - KEDUA listener akan menerima angka yang SAMA
+    - Akibatnya, setiap angka akan muncul 2 kali di teks
+
+![Soal 11](<assets/Screenshot (529).png>)

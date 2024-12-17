@@ -12,3 +12,7 @@ Keyword yield* pada kode tersebut memiliki fungsi khusus dalam konteks async gen
     3. Stream.periodic() menghasilkan stream yang mengeluarkan event setiap detik, dengan nilai warna yang berubah secara berurutan dari list colors.
     4. Dengan yield*, setiap event dari stream Stream.periodic() akan secara otomatis ditambahkan ke stream utama yang sedang dibuat.
 
+Soal 4
+![alt text](<assets/Screenshot (512).png>)
+![alt text](<assets/Screenshot (513).png>)
+![alt text](<assets/Screenshot (514).png>)

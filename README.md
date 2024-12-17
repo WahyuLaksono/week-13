@@ -63,3 +63,29 @@ Singkatnya, ini adalah contoh implementasi stream sederhana di Flutter:
     - Metode ini sekarang dipanggil untuk menambahkan error
     - Sekarang hanya memanggil addError() untuk mensimulasikan error
 
+# Soal 8
+
+1. handleData:
+    - Menerima setiap nilai yang masuk ke stream
+    - Mengalikan nilai tersebut dengan 10
+    - Menambahkan hasil perkalian ke sink (output stream)
+
+2. handleError:
+    - Dipanggil jika terjadi error dalam stream
+    - Menambahkan nilai -1 ke sink sebagai penanganan error
+    - Ini memungkinkan stream tetap berjalan meskipun ada error
+
+3. handleDone:
+    - Dipanggil ketika stream selesai
+    - Menutup sink
+
+4. Penggunaan transformer:
+    - Mengaplikasikan transformer ke stream
+    - Setiap kali ada data:
+        - Jika data normal: akan dikalikan 10
+        - Jika error: akan menghasilkan -1
+    - Memperbarui state dengan nilai yang ditransformasi
+
+![Soal 8](<assets/Screenshot (523).png>)
+![Soal 8](<assets/Screenshot (524).png>)
+![Soal 8](<assets/Screenshot (525).png>)
